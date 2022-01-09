@@ -1,0 +1,23 @@
+<style>
+.card-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+
+	margin-top: 16px;
+	justify-content: space-between;
+}
+</style>
+
+<!-- <div class="produit-card"> -->
+<div class="card-container">
+	<div>
+	<h2>{{ nom }}</h2>
+	<p> {{ nom }} de la marque : {{ marque }}</p>
+	<img [src]="imageurl" [alt]="nom" height=100px>
+	<p>{{ description }}</p>
+	<p> {{ prix }}€</p>
+	<button (click)="onAjoutPanier()"> {{buttontexte}} </button>
+	</div>
+
+</div>
