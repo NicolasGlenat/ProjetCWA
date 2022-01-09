@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "ProjetCWA"
+  "defaultProject": "ProjetCWA",
+  "cli": {
+    "analytics": false
+  }
 }
