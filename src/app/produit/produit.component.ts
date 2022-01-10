@@ -27,6 +27,7 @@ export class ProduitComponent implements OnInit {
     this.buttontexte = "Ajouter au panier";
     this.OBJ = [];
     this.i = 0;
+
   }
 
   onAjoutPanier() {
